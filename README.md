@@ -1,9 +1,9 @@
 Proyecto Web en Equipo: Grupo N°25
 Trabajo Práctico Grupal Nº 1 - IFTS N.°29
 
-Enlace al Proyecto Desplegado: [Link de Vercel aquí]
+Enlace al Proyecto Desplegado: [Sitio en Vercel](https://tp-1-frontend-grupo25.vercel.app/)
 
-Repositorio GitHub: [Link del Repositorio aquí]
+Repositorio GitHub: [Código en GitHub](https://github.com/JulioAlegre-dev/TP1-Frontend-Grupo25)
 
 📝 Descripción del Proyecto
 Este proyecto es un sitio web colaborativo desarrollado como parte del Trabajo Práctico Nº 1. Consiste en una plataforma de presentación grupal que incluye una portada interactiva, una bitácora del proceso de desarrollo y páginas individuales para cada integrante. El objetivo es demostrar habilidades en la estructuración de archivos, diseño responsive (400px, 900px y 1200px), y la implementación de interactividad mediante JavaScript.
