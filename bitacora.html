@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora de Desarrollo - Grupo 25</title>
+    
+    <!-- Vinculación a tu CSS actual (asegurate que el nombre sea exacto) -->
+    <link rel="stylesheet" href="css/style.css"> 
+    
+    <!-- Librerías de iconos y animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Tipografía Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bitacora-page">
+    <header>
+        <!-- Nav idéntico a tu portada para que main.js funcione perfecto -->
+        <nav id="nav" class="nav1">
+            <div class="contenedor nav">
+                <div class="enlaces-header" id="enlaces">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#proyecto">Proyecto</a>
+                    <a href="index.html#conocenos">Conócenos</a>
+                    <a href="bitacora.html">Bitácora</a>
+                </div>
+                <!-- Icono de menú para responsive -->
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <section class="textos-header">
+            <h1>Bitácora de Desarrollo</h1>
+            <h2>Proceso y Evolución del Proyecto</h2>
+        </section>
+
+        <!-- Efecto de Ola del encabezado -->
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-0.00,50.10 C150.00,150.33 349.20,-50.10 500.00,50.10 L500.00,150.33 L-0.00,150.33 Z" style="stroke: none; fill: #f2f2f2;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <main class="conocenos">
+        <div class="timeline-container">
+            <h2 class="titulo" style="color: #1d273b; margin-bottom: 50px;">Cronología de Trabajo</h2>
+            
+            <!-- Contenedor de la línea del tiempo alternada -->
+            <div class="timeline" style="display: flex; flex-direction: column;">
+                
+                <!-- Hito 1: A la izquierda -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>1- Planificación y Estructura</h3>
+                        <p>Diseñamos una arquitectura de carpetas modular para organizar el código y los recursos multimedia por integrante de forma eficiente.</p>
+                        
+                    </div>
+                </div>
+
+                <!-- Hito 2: A la derecha -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>2- Identidad Visual y Estructura Flexbox</h3>
+                        <p>Seleccionamos una estética limpia con la fuente Poppins y unificamos el estilo de las imágenes en formato circular para dar coherencia visual al sitio.</p>
+                        <p>Maquetación con Flexbox: Implementamos el modelo de caja flexible (Flexbox) para organizar los elementos del sitio. Esta tecnología nos permitió alinear el contenido de forma automática y asegurar que las secciones se distribuyan proporcionalmente en cualquier resolución.</p>
+                        <p>Priorizamos la navegación mediante un menú fijo que cambia de color al hacer scroll, evitando que el usuario deba retroceder manualmente.</p>
+                    </div>
+                </div>
+
+                <!-- Hito 3: A la izquierda -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>3- Desarrollo e Interactividad</h3>
+                        <p>Programamos el menú hamburguesa para móviles y funciones dinámicas en las tarjetas personales usando JavaScript Vanilla.</p>
+                    </div>
+                </div>
+
+                <!-- Hito 4: A la derecha -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>4- Ajuste de Diseño Adaptable (Responsive)</h3>
+                        <p>Corregimos errores de visualización en pantallas de 400px, 900px y 1200px, ajustando los márgenes y el flujo del texto para mejorar la lectura en celulares.</p>
+                    </div>
+                </div>
+
+                <!-- Hito 5: A la izquierda -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>5- Desafío Técnico en el Menú Hamburguesa</h3>
+                        <p><b>Problema detectado:</b> El menú presenta un diseño inconsistente entre la página de Bitácora y el resto del sitio debido a conflictos en las hojas de estilo específicas de cada sección.</p>
+                        <p><b>Estado:</b> Se priorizó la funcionalidad para la entrega actual y se documentó la necesidad de unificar los estilos del componente en el TP2.</p>
+                    </div>
+                </div>
+
+                <!-- Hito 6: A la derecha -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>6- Publicación</h3>
+                        <p>Realizamos el despliegue final en Vercel tras corregir errores de jerarquía en CSS con apoyo de herramientas de IA.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 - Grupo N°25 | Creado para TPG 1 - Desarrollo de Sistemas Web Front End</p>
+    </footer>
+
+    <!-- Scripts en orden -->
+    <!-- 1. Animaciones AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 2. Tu lógica de menú actual -->
+    <script src="js/main.js"></script> 
+    <!-- 3. Lógica nueva para la línea del tiempo (desvanecimiento) -->
+    <script src="js/bitacora.js"></script> 
+</body>
+</html>

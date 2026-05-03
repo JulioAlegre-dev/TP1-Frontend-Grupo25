@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrante - Julio Alegre</title>
+    
+    <!-- Rutas corregidas a la raíz -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="integrante-page">
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor nav">
+                <div class="enlaces-header" id="enlaces">
+                    <!-- Enlaces corregidos a la raíz -->
+                    <a href="index.html">Inicio</a>
+                    <a href="#presentacion">Presentación</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#peliculas">Películas</a>
+                    <a href="#canciones">Álbumes</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <section class="textos-header">
+            <h1>Julio Alegre</h1>
+            <h2>Integrante del Grupo N°25</h2>
+        </section>
+
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-0.00,50.10 C150.00,150.33 349.20,-50.10 500.00,50.10 L500.00,150.33 L-0.00,150.33 Z" style="stroke: none; fill: #ffffff;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <div class="presentacion" id="presentacion">
+        <section class="contenido-presentacion">
+            <section class="textos-presentacion">
+                <h2>Presentación Personal</h2>
+
+                <div class="foto-presentacion">
+                    <!-- Ruta corregida -->
+                    <img src="img/conocenos/julio.png" alt="Julio - integrante del equipo" data-aos="zoom-in-right">
+                </div>
+
+                <!-- Espacios para completar información personal -->
+                <p><strong>Edad:</strong> 56</p>
+                <p><strong>📍 Ubicación:</strong> Ciudad Autónoma de Buenos Aires</p>
+                <p><strong>Sobre mí:</strong> Estudiante apasionado por el desarrollo Backend con un enfoque especial en la arquitectura de sistemas. Actualmente curso la Tecnicatura en Desarrollo de Software, donde combino mi capacidad analítica con herramientas modernas para crear soluciones escalables</p>
+            </section>
+         </section>
+    </div>
+
+    <section class="habilidades-seccion-total" id="habilidades"> 
+        <div class="contenedor1-habilidades">
+            <h2>Habilidades</h2>
+            
+            <!-- Botón de interactividad dinámica requerido -->
+            <div style="text-align: center; margin-bottom: 20px;">
+                <button onclick="toggleSkills()" id="btn-skills" style="background: #4d44df; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                    Ocultar Habilidades
+                </button>
+            </div>
+
+            <div class="flex-habilidades" data-aos="zoom-in-right">
+                <img src="img/integrantes/habilidades.svg" alt="habilidades">
+                <div class="box-skills" id="skills-container">
+                    <h4><i class="far fa-check-circle"></i> Frontend: HTML5 & CSS3</h4>
+                    <h4><i class="far fa-check-circle"></i> Datos y automatización: Excel (Macros)</h4>
+                    <h4><i class="far fa-check-circle"></i> Gestión: Planificación de proyectos</h4>
+                    <h4><i class="far fa-check-circle"></i> Habilidades clave: Organización y pensamiento analítico</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="peliculas" id="peliculas">
+        <div class="contenedor1-peliculas">
+            <h2 class="titulo">Películas Favoritas</h2>
+            <div class="contenedor-peliculas">
+                <div class="pelicula" data-aos="zoom-in-right">
+                    <img src="img/integrantes/julio/peliculas/300.png" alt="Película 300">
+                    <h3>300</h3>
+                    <p>Narra cómo el rey Leónidas y 300 espartanos enfrentan al inmenso ejército persa de Jerjes</p>
+                </div>
+                <div class="pelicula" data-aos="zoom-in-right">
+                    <img src="img/integrantes/julio/peliculas/vampiros.png" alt="Película Vampires">
+                    <h3>Vampires</h3>
+                    <p>Es un híbrido explosivo de terror y western que ofrece un entretenimiento crudo y directo donde destaca un cazador de vampiros cínico en el desierto de Nuevo México</p>
+                </div>
+                <div class="pelicula" data-aos="zoom-in-right">
+                    <img src="img/integrantes/julio/peliculas/el_señor_de_los_anillos.png" alt="Película El Señor de los Anillos">
+                    <h3>El Señor de los Anillos</h3>
+                    <p>Narra la peligrosa misión de Frodo Bolsón para destruir el Anillo Único en el Monte del Destino. Con un profundo mensaje sobre la amistad, la lealtad y el sacrificio contra el poder absoluto de Sauron</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="canciones" id="canciones">
+        <div class="contenedor1-canciones">
+            <h2 class="titulo">Álbumes Favoritos</h2>
+            <div class="contenedor-canciones">
+                <div class="cancion" data-aos="zoom-in-right">
+                    <img src="img/integrantes/julio/canciones/Powerslave.png" alt="Canción 1">
+                    <h3>Powerslave - The Rime of the Ancient Mariner</h3>
+                    <a href="https://www.youtube.com/watch?v=OSDZj_jh5cE" target="_blank">Escuchar</a>
+                </div>
+                <div class="cancion" data-aos="zoom-in-right">
+                    <img src="img/integrantes/julio/canciones/Nightwish.png" alt="Canción 2">
+                    <h3>Century Child - Phantom of the Opera</h3>
+                    <a href="https://www.youtube.com/watch?v=tL25rbnvM4o" target="_blank">Escuchar</a>
+                </div>
+                <div class="cancion" data-aos="zoom-in-right">
+                    <img src="img/integrantes/julio/canciones/Deep Purple.png" alt="Canción 3">
+                    <h3>Perfect Strangers - Knocking at Your Back Door</h3>
+                    <a href="https://www.youtube.com/watch?v=G7GERh0sQzY" target="_blank">Escuchar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 - Grupo N°25 | Creado para TPG 1 - Desarrollo de Sistemas Web Front End</p>
+    </footer>
+
+    <!-- Scripts corregidos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/d91eed5dbd.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Script de interactividad individual -->
+    <script>
+        function toggleSkills() {
+            const container = document.getElementById('skills-container');
+            const btn = document.getElementById('btn-skills');
+            
+            if (container.style.display === 'none') {
+                container.style.display = 'block';
+                btn.innerText = 'Ocultar Habilidades';
+            } else {
+                container.style.display = 'none';
+                btn.innerText = 'Mostrar Habilidades';
+            }
+        }
+    </script>
+</body>
+</html>

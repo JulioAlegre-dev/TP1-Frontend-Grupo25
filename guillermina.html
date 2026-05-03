@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrante - Guillermina Zen Cáffaro</title>
+    
+    <!-- Rutas corregidas a la raíz -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="integrante-page">
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor nav">
+                <div class="enlaces-header" id="enlaces">
+                    <!-- Enlaces corregidos a la raíz -->
+                    <a href="index.html">Inicio</a>
+                    <a href="#presentacion">Presentación</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#peliculas">Películas</a>
+                    <a href="#canciones">Álbumes</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <section class="textos-header">
+            <h1>Guillermina Zen Cáffaro</h1>
+            <h2>Integrante del Grupo N°25</h2>
+        </section>
+
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-0.00,50.10 C150.00,150.33 349.20,-50.10 500.00,50.10 L500.00,150.33 L-0.00,150.33 Z" style="stroke: none; fill: #ffffff;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <div class="presentacion" id="presentacion">
+        <section class="contenido-presentacion">
+            <section class="textos-presentacion">
+                <h2>Presentación Personal</h2>
+
+                <div class="foto-presentacion">
+                    <!-- Ruta corregida -->
+                    <img src="img/conocenos/guillermina.png" alt="Guillermina - integrante del equipo" data-aos="zoom-in-right">
+                </div>
+
+                <p><strong>Edad:</strong> 27 años </p>
+                <p><strong>📍 Ubicación:</strong> Salta</p>
+                <p>Soy estudiante de la Tecnicatura en Desarrollo de Software, con especial interés en el desarrollo web y la ciberseguridad. Busco seguir formándome y adquiriendo experiencia para desarrollar soluciones que aporten valor, mientras continúo creciendo tanto profesional como personalmente.</p>
+            </section>
+        </section>
+    </div>
+
+    <section class="habilidades-seccion-total" id="habilidades"> 
+        <div class="contenedor1-habilidades">
+            <h2>Habilidades</h2>
+
+            <!-- Botón de interactividad dinámica requerido -->
+            <div style="text-align: center; margin-bottom: 20px;">
+                <button onclick="toggleSkillsG()" id="btn-skills-g" style="background: #4d44df; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                    Ocultar Habilidades
+                </button>
+            </div>
+
+            <div class="flex-habilidades" data-aos="zoom-in-right">
+                <img src="img/integrantes/habilidades.svg" alt="habilidades">
+                <div class="box-skills" id="skills-container-g">
+                    <h4><i class="far fa-check-circle"></i> Resolución de problemas</h4>
+                    <h4><i class="far fa-check-circle"></i> Escucha activa</h4>
+                    <h4><i class="far fa-check-circle"></i> Trabajo en Equipo</h4>
+                    <h4><i class="far fa-check-circle"></i> Aprendizaje continuo</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="peliculas" id="peliculas">
+        <div class="contenedor1-peliculas">
+            <h2 class="titulo">Películas Favoritas</h2>
+            <div class="contenedor-peliculas">
+                <div class="pelicula" data-aos="zoom-in-right">
+                    <img src="img/integrantes/guillermina/Peliculas/el_niño_que_domo_el_viento.png" alt="Pelicula - El niño que domó el viento">
+                    <h3>El niño que domó el viento</h3>
+                    <p>Relata la historia de un joven de Malawi que, enfrentando la pobreza y una fuerte sequía, utiliza su ingenio para construir un molino de viento.</p>
+                </div>
+                <div class="pelicula" data-aos="zoom-in-right">
+                    <img src="img/integrantes/guillermina/Peliculas/el_rey.png" alt="Pelicula - El Rey">
+                    <h3>El Rey</h3>
+                    <p>Relata la historia del joven rey Enrique V y su crecimiento como líder en medio de conflictos y guerras.</p>
+                </div>
+                <div class="pelicula" data-aos="zoom-in-right">
+                    <img src="img/integrantes/guillermina/Peliculas/hasta_el_ultimo_hombre.png" alt="Película - Hasta el último hombre">
+                    <h3>Hasta el último hombre</h3>
+                    <p>Cuenta la historia real de un soldado que salva vidas en la guerra sin usar armas, guiado por sus valores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="canciones" id="canciones">
+        <div class="contenedor1-canciones">
+            <h2 class="titulo">Álbumes Favoritos</h2>
+            <div class="contenedor-canciones">
+                <div class="cancion" data-aos="zoom-in-right">
+                    <img src="img/integrantes/guillermina/canciones/dame_tu_aire.png" alt="Álbum Fantasía o Realidad">
+                    <h3>Fantasía o Realidad - Dame tu aire</h3>
+                    <a href="https://youtu.be/zYOGqeMewhY" target="_blank" rel="noopener noreferrer">Escuchar</a>
+                </div>
+                <div class="cancion" data-aos="zoom-in-right">
+                    <img src="img/integrantes/guillermina/canciones/tunel_de_la_vida.png" alt="Álbum Estado de Enlace">
+                    <h3>Estado de Enlace - Tunel de la Vida</h3>
+                    <a href="https://youtu.be/6i2UfOn4Zeo" target="_blank" rel="noopener noreferrer">Escuchar</a>
+                </div>
+                <div class="cancion" data-aos="zoom-in-right">
+                    <img src="img/integrantes/guillermina/canciones/malvas.png" alt="Álbum Leo Rizzi">
+                    <h3>Álbum Debut Leo Rizzi - Malvas</h3>
+                    <a href="https://youtu.be/q4WE8YqH9fQ" target="_blank" rel="noopener noreferrer">Escuchar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 - Grupo N°25 | Creado para TPG 1 - Desarrollo de Sistemas Web Front End</p>
+    </footer>
+
+    <!-- Scripts corregidos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/d91eed5dbd.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Script de interactividad individual de Guillermina -->
+    <script>
+        function toggleSkillsG() {
+            const container = document.getElementById('skills-container-g');
+            const btn = document.getElementById('btn-skills-g');
+            if (container.style.display === 'none') {
+                container.style.display = 'block';
+                btn.innerText = 'Ocultar Habilidades';
+            } else {
+                container.style.display = 'none';
+                btn.innerText = 'Mostrar Habilidades';
+            }
+        }
+    </script>
+</body>
+</html>
